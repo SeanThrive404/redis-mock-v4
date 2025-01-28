@@ -594,7 +594,7 @@ describe("multiple get/set", function () {
   //HGETALL
   it("should be able to get all values for hash", function (done) {
 
-    r.hgetall(mHash2, function (err, result) {
+    r.hGetAll(mHash2, function (err, result) {
 
       should.exist(result);
 
